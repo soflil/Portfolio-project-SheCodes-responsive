@@ -123,6 +123,10 @@ p {
     font-size: 44px;
   }
 
+  h3 {
+    font-size: 35px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
@@ -130,5 +134,9 @@ p {
   .project-descriptions {
     padding: 0;
     text-align: center;
+  }
+
+  .hero-padding-small h2 {
+    font-size: 27px;
   }
 }
