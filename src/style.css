@@ -77,6 +77,23 @@ p {
   padding: 120px 60px;
 }
 
+.fa-brands {
+  font-size: 25px;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.contact-me-social-media {
+  text-align: center;
+  font-size: 35px;
+}
+
+.icon-contact-me {
+  font-size: 45px;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 44px;
