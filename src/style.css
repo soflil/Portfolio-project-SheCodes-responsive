@@ -29,30 +29,49 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 45px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
 
-.hero {
+.homepage-hero {
   background: var(--hero-bg-color);
   text-align: center;
   padding: 160px 0;
 }
 
-.hero p {
+.homepage-hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
   color: #272142;
 }
 
-.hero h2 {
+.homepage-hero h2 {
   font-weight: normal;
   font-size: 24px;
   line-height: 1.5;
   color: #272142;
+}
+
+.hero-padding-small {
+  background: var(--hero-bg-color);
+  text-align: center;
+  padding: 40px 0;
+}
+
+.hero-padding-small h2 {
+  font-size: 30px;
+  text-align: start;
+}
+
+.hero-padding-small p {
+  text-align: start;
 }
 
 .btn-branding {
