@@ -65,6 +65,7 @@ p strong {
 
 .about-section {
   padding: 160px;
+  padding-top: 100px;
 }
 
 .hero-padding-small {
@@ -153,8 +154,12 @@ p strong {
     font-size: 27px;
   }
 
+  .about-section {
+    text-align: center;
+  }
+
   .about-section h3 {
-    font-size: 27px;
+    font-size: 35px;
   }
 
   .about-section p {
