@@ -32,48 +32,28 @@
     <title>Portfolio Homepage - Sophie Schou</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">
+    <div>
+      <nav class="d-flex justify-content-between">
+        <a href="/">
           <img
             src="images/SheCodes-logo.png"
-            alt="Logo"
-            width="90"
-            height="30"
-            class="d-inline-block align-text-top"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo normal"
+          />
+          <img
+            src="images/shecodes-logo-small.jpeg"
+            class="logo d-block d-md-none"
+            alt="SheCodes logo small"
           />
         </a>
-        <a class="navbar-brand" title="Homepage" href="/">Sophie Schou</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
-            <a class="nav-link" title="About Sophie Schou" href="/about.html"
-              >About me</a
-            >
-            <a class="nav-link" title="Sophie Schou´s work" href="/work.html"
-              >My work</a
-            >
-            <a
-              class="nav-link"
-              title="Contact Sophie Schou"
-              href="/contact.html"
-              >Contact me</a
-            >
-          </div>
-        </div>
-      </div>
-    </nav>
+        <ul>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/work.html">Work</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
 
     <div class="hero homepage-hero">
       <p>Hello, I am</p>

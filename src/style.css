@@ -9,6 +9,36 @@ body {
   font-family: var(--default-font-family);
 }
 
+nav {
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4d4c4c;
+}
+
+nav a:hover {
+  color: var(--button-branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav li.active a {
+  color: var(--button-branding-color);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -41,6 +71,10 @@ p {
 
 p strong {
   font-size: 20px;
+}
+
+.logo {
+  max-height: 40px;
 }
 
 .homepage-hero {
@@ -132,6 +166,10 @@ p strong {
 }
 
 @media (max-width: 992px) {
+  nav a {
+    font-size: 14px;
+  }
+
   h1 {
     font-size: 44px;
     line-height: 2;
