@@ -145,6 +145,10 @@ p strong {
   font-size: 16px;
 }
 
+.contact-page-box h2 {
+  font-size: 35px;
+}
+
 .social-links {
   color: var(--button-branding-color);
   font-size: 18px;
