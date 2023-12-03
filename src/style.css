@@ -138,7 +138,8 @@ p strong {
 }
 
 .image-sophie {
-  max-width: 350px;
+  max-width: 250px;
+  margin-bottom: 20px;
 }
 
 .contact-box {
@@ -210,9 +211,13 @@ p strong {
     font-size: 16px;
   }
 
+  #view-projects-button {
+    margin-top: 25px;
+  }
+
   .about-section {
     text-align: center;
-    padding: 0;
+    padding: 20px;
   }
 
   .about-section h3 {
@@ -228,8 +233,7 @@ p strong {
   }
 
   .image-sophie {
-    max-width: 250px;
-    margin-top: 20px;
+    display: none;
   }
 
   .project-reel-row h3 {
