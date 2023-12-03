@@ -8,7 +8,7 @@
 body {
   font-family: var(--default-font-family);
   max-width: 1200px;
-  margin: 0 20px 0px 20px auto;
+  margin: 0 auto;
 }
 
 nav {
@@ -62,7 +62,7 @@ h2 {
 }
 
 h3 {
-  font-size: 45px;
+  font-size: 42px;
 }
 
 p {
@@ -107,7 +107,7 @@ p strong {
 }
 
 .about-section {
-  padding: 160px;
+  padding: 160px 120px 0 120px;
   padding-top: 100px;
 }
 
@@ -229,6 +229,7 @@ p strong {
 
   .image-sophie {
     max-width: 250px;
+    margin-top: 20px;
   }
 
   .project-reel-row h3 {
