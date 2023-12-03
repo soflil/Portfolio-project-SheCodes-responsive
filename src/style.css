@@ -1,6 +1,6 @@
 :root {
-  --button-branding-color: #6c63ff;
-  --hero-bg-color: #f9f7fe;
+  --button-branding-color: #37598b;
+  --hero-bg-color: #e3f5f5;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -8,7 +8,7 @@
 body {
   font-family: var(--default-font-family);
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 0 20px 0px 20px auto;
 }
 
 nav {
@@ -28,7 +28,7 @@ nav a:hover {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 42px;
+  line-height: 20px;
   margin-left: 15px;
 }
 
@@ -76,8 +76,9 @@ p strong {
 }
 
 .nav-name {
-  margin-top: 5px;
   font-size: 20px;
+  color: var(--button-branding-color);
+  line-height: 20px;
 }
 
 .hero {
