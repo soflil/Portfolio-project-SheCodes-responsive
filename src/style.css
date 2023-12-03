@@ -7,6 +7,8 @@
 
 body {
   font-family: var(--default-font-family);
+  max-width: 1200px;
+  margin: 20px auto;
 }
 
 nav {
@@ -56,7 +58,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 54px;
 }
 
 h3 {
@@ -73,8 +75,9 @@ p strong {
   font-size: 20px;
 }
 
-.logo {
-  max-height: 40px;
+.nav-name {
+  margin-top: 5px;
+  font-size: 20px;
 }
 
 .hero {
@@ -95,6 +98,11 @@ p strong {
   font-size: 24px;
   line-height: 1.5;
   color: #272142;
+}
+
+#working-on {
+  opacity: 0.7;
+  font-style: italic;
 }
 
 .about-section {
@@ -163,6 +171,12 @@ p strong {
   background: var(--button-branding-color);
 }
 
+@media (max-width: 1400px) {
+  h2 {
+    font-size: 44px;
+  }
+}
+
 @media (max-width: 992px) {
   nav a {
     font-size: 14px;
@@ -171,10 +185,6 @@ p strong {
   h1 {
     font-size: 44px;
     line-height: 2;
-  }
-
-  h2 {
-    font-size: 44px;
   }
 
   h3 {
@@ -201,7 +211,7 @@ p strong {
 
   .about-section {
     text-align: center;
-    padding: 0px;
+    padding: 0;
   }
 
   .about-section h3 {
@@ -226,6 +236,15 @@ p strong {
 
   .project-reel-row p {
     font-size: 12px;
-    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .nav-name {
+    display: none;
+  }
+
+  .navbar-link {
+    font-size: 12px;
   }
 }

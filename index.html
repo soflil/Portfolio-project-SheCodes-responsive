@@ -36,22 +36,27 @@
     <div>
       <nav class="d-flex justify-content-between">
         <a href="/" title="Homepage">
-          <img
-            src="images/SheCodes-logo.png"
-            class="logo d-none d-md-block"
-            alt="SheCodes logo normal"
-          />
-          <img
-            src="images/shecodes-logo-small.jpeg"
-            class="logo d-block d-md-none"
-            alt="SheCodes logo small"
-          />
+          <div class="nav-name">Sophie Schou</div>
         </a>
         <ul>
-          <li class="active"><a href="/" title="Homepage">Home</a></li>
-          <li><a href="/about.html" title="About Sophie">About</a></li>
-          <li><a href="/work.html" title="Sophie´s work">Work</a></li>
-          <li><a href="/contact.html" title="Contact Sophie">Contact</a></li>
+          <li class="active">
+            <a href="/" title="Homepage" class="navbar-link">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Sophie" class="navbar-link"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="/work.html" title="Sophie´s work" class="navbar-link"
+              >Work</a
+            >
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Sophie" class="navbar-link"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </div>
@@ -67,31 +72,33 @@
       </div>
     </div>
 
-    <p class="text-center m-5">What I have been working on so far</p>
+    <p class="text-center m-5" id="working-on">
+      What I have been working on so far
+    </p>
 
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
-            src="images/weather-app-project.png"
+            src="images/dictionary-project.jpeg"
             class="img-fluid rounded shadow"
-            alt="weather-app website"
+            alt="dictionary project"
           />
         </div>
         <div class="col">
           <div class="project-descriptions">
-            <h2 class="mb-4">Weather-app Project</h2>
+            <h2 class="mb-4">Dictionary Project</h2>
             <p class="mb-4 text-muted">
-              In this project I used HTML, CSS and JavaScript. It is my first
-              non-static work and I´m exited to do more! This project was a lot
-              of fun and I learned a lot about API´s and how to acces the data
-              in them with JavaScript. Hosted with Netlify.
+              In this project I used React and a dictionary API. This was a lot
+              of fun and I learned more about React and how to create a clean
+              website with cleanly written code. The project is hosted on
+              Netlify.
             </p>
             <div>
               <a
-                href="https://leafy-fenglisu-f7fdd9.netlify.app"
+                href="https://dictionary-react-app-scs.netlify.app"
                 class="btn btn-branding-outline"
-                title="Weather-app project"
+                title="Dictionary project"
                 target="_blank"
                 >Hosted project here</a
               >
@@ -103,20 +110,17 @@
       <div class="row mb-5">
         <div class="col">
           <div class="project-descriptions">
-            <h2 class="mb-4">Portfolio Project</h2>
+            <h2 class="mb-4">AI Poem Generator Project</h2>
             <p class="mb-4 text-muted">
-              In this project I used HTML and CSS with Bootstrap classes. It was
-              so amazing to see how quickly you can code with a little help from
-              bootstrap. This page is responsive with the help of Bootstrap, but
-              I did also learn flexbox and see good uses in both, although I do
-              enjoy using grids combined with "sm" and "lg" to get this result.
-              Hosted with Netlify
+              In this project I used JavaScript, an AI API and a typewriter
+              plug-in for the writing animation. This project is hosted on
+              Netlify.
             </p>
             <div>
               <a
-                href="https://graceful-gaufre-e859db.netlify.app"
+                href="https://ai-poem-generator.netlify.app"
                 class="btn btn-branding-outline"
-                title="Portfolio project"
+                title="AI poem project"
                 target="_blank"
                 >Hosted project here</a
               >
@@ -125,35 +129,34 @@
         </div>
         <div class="col d-none d-lg-block">
           <img
-            src="images/portfolio-project.png"
+            src="images/AI-poem-generator-project.jpeg"
             class="img-fluid rounded shadow"
-            alt="Portfolio website"
+            alt="AI poem project"
           />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
-            src="images/croissant-project.png"
+            src="images/weather-app-project.jpeg"
             class="img-fluid rounded shadow"
-            alt="Croissant website"
+            alt="weather-app project"
           />
         </div>
         <div class="col">
           <div class="project-descriptions">
-            <h2 class="mb-4">Croissant Landing-Page Project</h2>
+            <h2 class="mb-4">Weather-App Project</h2>
             <p class="mb-4 text-muted">
-              On this project I was testing multiple HTML-files to practice. I
-              used HTML and a little CSS to make this static site. This was very
-              valuable to my learning. Not a very impressive peace of work, but
-              it did let me practice and eventually I made the website you are
-              on right now as a result.
+              In this project I used a weather API, React and an icon-animation
+              plug-in. This was not my first attempt at a weather-app, but it
+              was my first attempt at using the forecast feature. This project
+              is hosted on Netlify.
             </p>
             <div>
               <a
-                href="https://resplendent-palmier-d32ea2.netlify.app"
+                href="https://weather-app-scs.netlify.app"
                 class="btn btn-branding-outline"
-                title="Croissant static page project"
+                title="Weather-app project"
                 target="_blank"
                 >Hosted project here</a
               >
@@ -212,13 +215,14 @@
       <div></div>
     </footer>
     <p class="text-center">
-      👉 This project was coded by Sophie Schou an is
+      👉 This portfolio was coded by Sophie Schou an is
       <a
         href="https://github.com/soflil/Portfolio-project-SheCodes-responsive"
         title="The git repository of the project"
         target="_blank"
         >open-sourced</a
       >
+      on GitHub
     </p>
   </body>
 </html>
